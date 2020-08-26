@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Congressional Rep</title>
+    
+</head>
+
+<body>
+    <header class="pageHeader">My Congressional Rep</header>
+
+    <main>
+    <!-- Parent rep component -->
+    <article id="rep">
+
+        <!-- Child rep component -->
+        <section class="rep__name">
+            <h1>John Rose</h1>
+        </section>
+
+        <!-- Child rep component -->
+        <section class="rep__image">
+        <img src="https://www.govtrack.us/static/legislator-photos/412818-200px.jpeg" alt="Rep. John Rose">
+        </section>
+
+         <!-- Child rep component -->
+        <section class="rep__party">
+            Republican
+        </section>
+
+        <!-- Child rep component -->
+        <section class="rep__district">
+            Tennessee's 6th Congressional District
+        </section>
+
+        <!-- Child rep component -->
+        <section class="committees">
+        <strong>Committees</strong>
+            <div class="committees">
+               House Committee on Financial Services
+            </div>
+            <div class="committees">
+                Housing, Community Development, and Insurance
+            </div>
+            <div class="committees">
+                National Security
+            </div>
+            <!-- Child rep component -->
+        <section class="legislation">
+        <strong>Bills</strong>
+            <div class="legislation">
+               <a href="https://www.govtrack.us/congress/bills/116/hr5358">H.R. 5358</a>
+            </div>
+            <div class="legislation">
+                <a href="https://www.govtrack.us/congress/bills/116/hres667">H.Res. 667</a>
+            </div>
+            <div class="legislation">
+                <a href="https://www.govtrack.us/congress/bills/116/hr4367">H.R. 4367</a>
+            </div>
+            
+        </section>
+
+    </article>
+</body>
+</html>
